@@ -1,2 +1,3 @@
 /.vscode
 /IRec-env
+*/__pycache__
