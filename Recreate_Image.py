@@ -14,8 +14,6 @@ image = cv.imread(image_file)
 # green = image[..., 1]
 # blue = image[..., 0]
 
-# blank = np.zeros(image.shape[:2], dtype='uint8')
-
 blank_canvas = Blank_Canvas_Creator(image)
 overlay = blank_canvas.copy()
 
